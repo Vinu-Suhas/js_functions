@@ -11,6 +11,9 @@
         (function (){
     console.log("Hello World")})()
 
+    Reason:
+    parameters are the variables written inside () brackets
+
 
         Q2.	Create one function which takes two values as a parameter and print the sum of them as "Sum of 3, 4 is 7"
         function sum(a,b){
@@ -26,6 +29,11 @@
         
         sum(2,3)
 
+        Reason:
+        The syntax of arrow function is declration_type variable_name=(arguments)=>{
+            set of statements
+        }
+
         Q4.Print output: 
         var x = 21;
         var girl = function () {
@@ -36,6 +44,10 @@
 
         Output:
         undefined
+
+        Reason:
+        The reason we are getting undefined is because in function execution context  a new memory is allocated since we have 
+        declared var inisde function scope
 
 
         Q5.
@@ -50,6 +62,11 @@
         Output:
         undefined
         21
+
+        Reason:
+
+        Since girl() function is executed first  and there is var declaration inisde function scope  we get the ouput undefined,
+        then a variable with global execution context is executed 
 
 
         Q6.Print output
@@ -72,6 +89,9 @@
         Output:
         20 
         40
+
+        Reason:
+        Since the variables is not declared inside function ,they have global scope
 
 
         Q7.Write a function that accepts parameter n and returns factorial of n
@@ -103,6 +123,9 @@
         Output:
         i am from PrepBytes and My batch is EA19
 
+        Reason:
+        When Write a function name with its () brackets the return values of the function will be passed as a argument  
+
         Q2.Guess the output
 
         Abc();
@@ -112,6 +135,9 @@
         }
         Output:
         ReferenceError: Cannot access 'Abc' before initialization
+
+        Reason:
+        In let and const type declaration we cannot access variable before declaration
 
         Q3.Guess the output
 
@@ -123,6 +149,9 @@
 
         Output:
         undefined
+
+        Reason: 
+        The output is undefined since there is var declaration inside global scope
 
         Q4.Guess the Output
         const greet =  function(name){
@@ -137,6 +166,9 @@
 
         Output:
         Hi!! EA19, Welcome To PrepBytes
+
+        Reason:
+        This is a concept known as first class function  
 
     </pre>
 </body>
